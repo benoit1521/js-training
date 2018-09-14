@@ -1,4 +1,4 @@
-'use strict'
+ 'use strict'
 
 /*
  * Create an `id` function that takes one argument and return it
