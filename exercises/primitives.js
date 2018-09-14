@@ -9,6 +9,17 @@
 
 // Your code :
 
+/*'str'*/
+const str = "1337"
+
+/*num*/
+const num = 42
+
+/*bool*/
+const bool = false
+
+/*undef*/
+const undef = undefined
 
 //* Begin of tests
 const assert = require('assert')
