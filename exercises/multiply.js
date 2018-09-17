@@ -8,8 +8,22 @@
  * @notions Primitive and Operators, Functions, While
  */
 
-// Your code :
 
+  //quand x est negatif je veux utiliser sa valeur absolue --> ligne 15
+// Your code :
+function multiply(x, y) {
+    const absX = Math.abs(x)
+    let result = 0
+    let i = 0
+    while (i<absX) {
+        i++
+        result += y
+    }
+    if (x<0){
+    return -result
+    }
+    return result
+}
 //* Begin of tests
 const assert = require('assert')
 
