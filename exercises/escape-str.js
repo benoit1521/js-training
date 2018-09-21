@@ -8,8 +8,7 @@
  */
 
 // Your code :
-const escapeStr = "/\`"'"
-console.log (escapeStr)
+const escapeStr = "'"+'"'+'`'+'/'+'\\' 
 //* Begin of tests
 const assert = require('assert')
 

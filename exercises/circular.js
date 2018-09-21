@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function circular (circular){  
+}
+return circular.circular
 //* Begin of tests
 const assert = require('assert')
 
